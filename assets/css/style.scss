@@ -2,4 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "lukasTravelTheme/home.scss"
+@import
+	"lukasTravelTheme/base.scss",
+	"lukasTravelTheme/home.scss",
+	"lukasTravelTheme/utilities.scss";

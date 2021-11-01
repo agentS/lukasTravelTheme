@@ -1,0 +1,12 @@
+.navigationBar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 6px;
+}
+
+@media screen and (max-width: 640px) {
+	.navigationBar {
+		flex-direction: column
+	}
+}

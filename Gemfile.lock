@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    lukasTravelTheme (0.0.0)
+    lukas_travel_theme (0.0.0)
       jekyll (~> 4.2)
 
 GEM
@@ -37,6 +37,7 @@ GEM
       terminal-table (~> 2.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
@@ -70,7 +71,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-feed (~> 0.15.1)
-  lukasTravelTheme!
+  jekyll-paginate (~> 1.1)
+  lukas_travel_theme!
 
 BUNDLED WITH
    2.1.2

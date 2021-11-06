@@ -1,10 +1,10 @@
 <div class="postListGrid">
 	{% for post in paginator.posts %}
 		<div>
-			<h3 class="centred"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			<p>
-				{% for category in post.categories %}
-					{{ category }}
+			<h2 class="centred"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<p class="centred">
+				{% for post_category in post.categories %}
+					<a href="{{ site.categories.post_category | relative_url }}">{{ post_category }}</a>
 				{% endfor %}
 			</p>
 

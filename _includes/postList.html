@@ -3,14 +3,16 @@
 		<div>
 			<h2 class="centred"><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="centred">
+				{% assign categories_path = '' %}
 				{% for post_category in post.categories %}
-					<a href="{{ site.categories.post_category | relative_url }}">{{ post_category }}</a>
+					{% assign categories_path = categories_path + post_category + '/' %}
+					<a href="{{ categories_path | relative_url }}">{{ post_category }}</a>
 				{% endfor %}
 			</p>
 
-			<div>
+			<p>
 				{{ post.excerpt }}
-			</div>
+			</p>
 		</div>
 	{% endfor %}
 </div>

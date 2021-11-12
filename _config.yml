@@ -1,3 +1,5 @@
+baseurl: "/lukasTravelTheme" # the subpath of your site, e.g. /blog
+
 paginate: 9
 paginate_path: "/blog/page:num/"
 

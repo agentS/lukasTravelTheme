@@ -1,0 +1,25 @@
+@media screen and (min-width: 1024px) {
+	.nested {
+		&:hover > .dropdown-menu {
+			display: block;
+		}
+
+		.dropdown-menu {
+			top: 0px;
+			margin-left: 100%;
+			margin-right: 0px;
+		}
+
+		.dropdown-trigger {
+			a::after {
+				content:  '>';
+			}
+		}
+	}
+
+	.dropdown-content {
+		a {
+			padding-right: 0px;
+		}
+	}
+}

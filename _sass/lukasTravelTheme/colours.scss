@@ -1,0 +1,10 @@
+$navbar-background-color: #FEE5AD;
+
+$ghost-colour: #287FAB;
+
+$tag-color: $ghost-colour;
+$button-ghost-color: $ghost-colour;
+$pagination-color: $ghost-colour;
+h1, h2, h3, h4, h5, h6, .ghost-colour {
+	color: $ghost-colour;
+}

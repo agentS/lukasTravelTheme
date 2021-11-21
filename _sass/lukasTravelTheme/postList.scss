@@ -1,7 +1,7 @@
 .postListGrid {
 	display: grid;
 	gap: 24px;
-	grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
 }
 
 .centred {
@@ -12,6 +12,6 @@
 }
 
 .thumbnail {
-  width: 100%;
+  width: calc(100% - 8px);
   height: auto;
 }

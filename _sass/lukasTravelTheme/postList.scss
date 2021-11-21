@@ -14,4 +14,5 @@
 .thumbnail {
   width: calc(100% - 8px);
   height: auto;
+  max-width: calc(768px - 16px)
 }

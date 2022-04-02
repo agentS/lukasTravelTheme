@@ -14,7 +14,7 @@
 				<div class="navbar-dropdown">
 					<div class="navbar-item nested dropdown">
 						<div class="dropdown-trigger">
-							<a href="{{ '/category/europa" || relative_url }}" class="button is-ghost"
+							<a href="{{ '/category/europa' | relative_url }}" class="button is-ghost"
 								aria-haspopup="true" aria-controls="dropdown-menu">
 								Europa
 							</a>
@@ -25,7 +25,10 @@
 								<a href="{{ '/category/westeuropa' | relative_url }}" class="dropdown-item button is-ghost">Westeuropa</a>
 								<!--
 								<a href="{{ '/category/mitteleuropa' | relative_url }}" class="dropdown-item button is-ghost">Mitteleuropa</a>
+								-->
+
 								<a href="{{ '/category/osteuropa' | relative_url }}" class="dropdown-item button is-ghost">Osteuropa</a>
+								<!--
 								<a href="{{ '/category/nordeuropa' | relative_url }}" class="dropdown-item button is-ghost">Nordeuropa</a>
 								-->
 							</div>
@@ -58,6 +61,7 @@
 							</div>
 						</div>
 					</div>
+					-->
 					<div class="navbar-item nested dropdown">
 						<div class="dropdown-trigger">
 							<a href="{{ '/category/nordamerika' | relative_url }}" class="button is-ghost"
@@ -67,19 +71,19 @@
 						</div>
 						<div class="dropdown-menu" id="dropdownNorthAmerica" role="menu">
 							<div class="dropdown-content">
-								<a href="{{ '/category/nordost' | relative_url }}" class="dropdown-item button is-ghost">Nordost USA</a>
-								<a href="{{ '/category/s&uuml;dwest' | relative_url }}" class="dropdown-item button is-ghost">S&uuml;dwest USA</a>
-								<a href="{{ '/category/qu&eacute;bec' | relative_url }}" class="dropdown-item button is-ghost">Qu&eacute;bec</a>
+								<!--<a href="{{ '/category/nordosten' | relative_url }}" class="dropdown-item button is-ghost">Nordost USA</a>-->
+								<a href="{{ '/category/s&uuml;dwesten' | relative_url }}" class="dropdown-item button is-ghost">S&uuml;dwest USA</a>
+								<!--<a href="{{ '/category/qu&eacute;bec' | relative_url }}" class="dropdown-item button is-ghost">Qu&eacute;bec</a>-->
 							</div>
 						</div>
 					</div>
-					-->
 				</div>
 			</div>
 			<!--<a href="{{ '/timeline' | relative_url }}" class="navbar-item button is-ghost">Timeline</a>-->
 			<a href="{{ '/about' | relative_url }}" class="navbar-item button is-ghost">&Uuml;ber mich</a>
 		</div>
 		<div class="navbar-end">
+			<a href="https://t.me/+m5LgsMhPmYkwMmNk" class="navbar-item button is-ghost"><i class="icon-mail"></i></a>
 			<a href="{{ '/feed.xml' | relative_url }}" class="navbar-item button is-ghost"><i class="icon-rss"></i></a>
 		</div>
 	</div>

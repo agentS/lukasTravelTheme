@@ -8,3 +8,11 @@ jekyll-archives:
     - categories
   layout:
     category_archive
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      is_post: true
